@@ -1,0 +1,59 @@
+body{
+	font: 16px/28px arial. sans-serif;
+	background-color: white;
+	background-image: url(bg3.png);
+
+}
+.container{
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+}
+
+header {
+	padding: 20px;
+}
+.header .judul {
+	font-size: 30px;
+	font-weight: bold;
+}
+.header ul li{
+	display: inline-block;
+	margin-right: none;
+}
+
+.header a {
+	text-decoration: none;
+	color: blue;
+	padding: 3px;
+}
+
+.header a:hover{
+	background-color: red;
+	color: white;
+}
+
+.hero {
+	height: 750px;
+	background-image: url(hero.jpg);
+	background-size: cover;
+	background-position: 0 - 180px;
+}
+content h2{
+	font-size: 28px;
+	font-weight: bold;
+}
+content .penulis{
+	font-size: 11px;
+	margin-top: -5px;
+} 
+
+.footer {
+background-color: black;
+padding: 5px;
+}
+.footer .copy {
+	color: white;
+	text-align: center;
+	font-size: 12;
+}
